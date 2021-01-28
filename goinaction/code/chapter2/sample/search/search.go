@@ -4,7 +4,7 @@ import (
 	"log"
 )
 
-// A map of registerd matchers for searching
+// A map of registerd matchers for searching.
 var matchers = make(map[string]Matcher)
 
 // Run performs the search logid.
