@@ -6,7 +6,7 @@ import (
 
 // Result contains the result of a search.
 type Result struct {
-	Feild   string
+	Field   string
 	Content string
 }
 

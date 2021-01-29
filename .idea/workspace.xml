@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1a90e3b-8766-4711-9424-4b98bf0c8626" name="Default Changelist" comment="fix: GO实战学习">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/matchers/rss.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/matchers/rss.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/match.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/match.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/search.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,13 @@
   <component name="GOROOT" path="/usr/local/Cellar/go/1.14.3/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1nizsIDk7rSMb7fUSliQCGNVAM0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -59,7 +68,9 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
@@ -119,35 +130,42 @@
     <MESSAGE value="fix: GO实战学习" />
     <option name="LAST_COMMIT_MESSAGE" value="fix: GO实战学习" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="696" y="400" key="#Go_Modules" timestamp="1611926909973">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="696" y="400" key="#Go_Modules/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926909973" />
     <state x="582" y="206" key="#go_build_match.go" timestamp="1611922485744">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="582" y="206" key="#go_build_match.go/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611922485744" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1611926293078">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1611927172087">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293078" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1611926293076">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611927172087" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1611927172086">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293076" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1611926293076">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611927172086" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1611927172085">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293076" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1611926293077">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611927172085" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1611927172087">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293077" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1611925865747">
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611927172087" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1611926929139">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611925865747" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1611921402020">
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926929139" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1611926664176">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611921402020" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926664176" />
     <state x="561" y="251" key="search.everywhere.popup" timestamp="1611918820698">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
