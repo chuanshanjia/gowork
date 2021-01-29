@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a90e3b-8766-4711-9424-4b98bf0c8626" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/goinaction/code/chapter2/sample/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code/chapter2/sample/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code/chapter2/sample/matchers/rss.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/matchers/rss.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code/chapter2/sample/search/feed.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/feed.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code/chapter2/sample/search/match.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/match.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code/chapter2/sample/search/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/search.go" afterDir="false" />
+    <list default="true" id="b1a90e3b-8766-4711-9424-4b98bf0c8626" name="Default Changelist" comment="fix: GO实战学习">
+      <change afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/match.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/match.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nizsIDk7rSMb7fUSliQCGNVAM0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,8 +58,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go">
@@ -99,25 +101,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1611889814530">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1611917450251">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611889814530" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1611889814528">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611917450251" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1611917450250">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611889814528" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1611889814527">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611917450250" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1611917450248">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611889814527" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1611889814529">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611917450248" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1611917450250">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611889814529" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611917450250" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1611889751433">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611889751433" />
+    <state x="561" y="251" key="search.everywhere.popup" timestamp="1611918820698">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" key="search.everywhere.popup/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611918820698" />
   </component>
 </project>
