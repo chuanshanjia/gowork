@@ -20,13 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1a90e3b-8766-4711-9424-4b98bf0c8626" name="Default Changelist" comment="fix: GO实战学习">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/default.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/search.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.14.3/libexec" />
   <component name="Git.Settings">
@@ -41,6 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -75,9 +84,18 @@
       <filePath value="$PROJECT_DIR$/src/map.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build match.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gowork" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/goinaction/code/chapter2/sample/search/match.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build match.go" />
         <item itemvalue="Go Build.go build map.go" />
       </list>
     </recent_temporary>
@@ -102,30 +120,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix: GO实战学习" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1611920786780">
+    <state x="582" y="206" key="#go_build_match.go" timestamp="1611922485744">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611920786780" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1611920786779">
+    <state x="582" y="206" key="#go_build_match.go/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611922485744" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1611926293078">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611920786779" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1611920786778">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293078" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1611926293076">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611920786778" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1611920786779">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293076" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1611926293076">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611920786779" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1611889751433">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293076" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1611926293077">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611889751433" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1611920625140">
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611926293077" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1611925865747">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611920625140" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611925865747" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1611921402020">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.0.1792.1120/-202.-1440.2560.1440@0.0.1792.1120" timestamp="1611921402020" />
     <state x="561" y="251" key="search.everywhere.popup" timestamp="1611918820698">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
