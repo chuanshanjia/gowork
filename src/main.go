@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/chuanshanjia/gowork/goinaction/code/chapters/sample/search"
 )
 
 //  比main先执行
